@@ -5,15 +5,13 @@ name = "pypi"
 
 [packages]
 numpy = "*"
-keras = "*"
 tensorflow = "*"
-tensorflowjs = "*"
 matplotlib = "*"
 
 [dev-packages]
 
-[scripts]
-dev = "python run app.py"
-
 [requires]
-python_version = '3.8'
+python_version = "3.8"
+
+[scripts]
+zalando = "pipenv run python zalando.py"
